@@ -203,6 +203,7 @@ class Main < JFrame
   include ActionListener
   def initialize(*args)
     super
+    setTitle "Francis Vo's Voltorb Flip Solver"
     @view = 0
     @left = JButton.new '<'
     @left.add_action_listener self
@@ -298,12 +299,21 @@ class Main < JFrame
         }
       }
     elsif(event.source==@help)then
+      puts
+      puts "Welcome to Francis Vo Solver"
+      puts "These are the color codes for solver"
+      puts
       puts "green - finished"
       puts "orange 5 - safe place please fill them in"
       puts "blue 6 - only 1 or 0 remain here"
       puts "purple 6 - Best place to guess but only 1 or 0, this will help the program to finish"
       puts "black 6 - Best place to guess with chance of 2 or 3"
       puts "red 6 - don't guess here no idea what it is yet"
+      puts
+      puts "Good luck"
+      puts "~ Francis Vo"
+      puts "email any questions to francis.vo.1337@gmail.com"
+      puts
     elsif(event.source==@solve)then
       froze(false)
       bsolve()
