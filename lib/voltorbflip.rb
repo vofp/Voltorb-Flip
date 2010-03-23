@@ -313,6 +313,7 @@ class Main < JFrame
       puts "Good luck"
       puts "~ Francis Vo"
       puts "email any questions to francis.vo.1337@gmail.com"
+      puts "Report any issues at http://github.com/firefrancis/Voltorb-Flip/issues"
       puts
     elsif(event.source==@solve)then
       froze(false)
