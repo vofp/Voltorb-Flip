@@ -2,6 +2,19 @@ Hello This is Francis's Solver,
 
 There are many complaints about Voltorb Flip being too hard. Well complain no more, My program will solve'em all.
 
-There will be a wiki on github, please look there for more help.
+There will be a wiki on github, please look there for more help. http://wiki.github.com/firefrancis/Voltorb-Flip/
 
 The only file you need is the voltorbflip.rb and a download version of jruby
+
+
+These are the color codes for solver
+green - finished
+orange 5 - safe place please fill them in
+blue 6 - only 1 or 0 remain here
+yellow 6 - Best place to guess but only 1 or 0, this will help the program to finish
+black 6 - Best place to guess with chance of 2 or 3
+red 6 - don't guess here no idea what it is yet
+Good luck
+~ Francis Vo
+email any questions to francis.vo.1337@gmail.com
+Report any issues at http://github.com/firefrancis/Voltorb-Flip/issues
