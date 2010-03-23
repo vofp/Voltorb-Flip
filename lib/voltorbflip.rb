@@ -337,6 +337,7 @@ class Main < JFrame
       @solve.text = "Solve"
       $array = []
       froze(true)
+      @start = true
       @left.enabled = false
       @right.enabled = false
     end
