@@ -306,7 +306,7 @@ class Main < JFrame
       puts "green - finished"
       puts "orange 5 - safe place please fill them in"
       puts "blue 6 - only 1 or 0 remain here"
-      puts "purple 6 - Best place to guess but only 1 or 0, this will help the program to finish"
+      puts "yellow 6 - Best place to guess but only 1 or 0, this will help the program to finish"
       puts "black 6 - Best place to guess with chance of 2 or 3"
       puts "red 6 - don't guess here no idea what it is yet"
       puts
