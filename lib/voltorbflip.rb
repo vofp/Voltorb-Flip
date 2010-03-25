@@ -42,6 +42,8 @@ def after()
         if($current[x][y] != 6)then
           if($current[x][y] != 5)then
             bo[x][y] != $current[x][y]
+          else
+            false
           end
         else
           false
@@ -69,7 +71,7 @@ def after()
   }
   0.upto(4) { |x|  
     0.upto(4) { |y|  
-      if($current[x][y] == 6)then
+      if($current[x][y] == 6 || $current[x][y] == 5)then
         check = true
         zero = true
         number = $array[0][x][y]

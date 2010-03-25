@@ -1,13 +1,18 @@
 Hello This is Francis's Solver,
 
-There are many complaints about Voltorb Flip being too hard. Well complain no more, My program will solve'em all.
+There are many complaints about Voltorb Flip being too hard. Well complain no more, My program will solve'em all.  Of course, if you noticed there might be some guessing, but my program will help you make that better guess.
+My program uses the board info to narrow down possible boards using contrant programming.  It will have you fill in more infornmation so that it can elimitate more boards.
+Once in a while, it'll have no idea where you need to fill in more information, so it'll ask you to guess.  It'll try to make you guess where there is a chance for 2 and 3 but with a low chance of voltorbs
 
 There will be a wiki on github, please look there for more help. http://wiki.github.com/firefrancis/Voltorb-Flip/
 
 The only file you need is the voltorbflip.rb and a download version of jruby
+you can get the current version of voltorbflip.rb at github's download page.
+
 
 
 These are the color codes for solver
+0 means that it is a voltorb.
 green - finished
 orange 5 - safe place please fill them in
 blue 6 - only 1 or 0 remain here
